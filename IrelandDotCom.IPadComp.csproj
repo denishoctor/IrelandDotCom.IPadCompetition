@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C4234DA1-BAA8-47CA-9AEB-7CE04AA22E8E}</ProjectGuid>
+    <ProjectTypeGuids>{F85E285D-A4E0-4152-9332-AB1D724D3325};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IrelandDotCom.IPadComp</RootNamespace>
+    <AssemblyName>IrelandDotCom.IPadComp</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\EntryWriter.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="icon.png" />
+    <Content Include="phone_startup.png" />
+    <Content Include="static\css\site.css" />
+    <Content Include="static\entries.txt" />
+    <Content Include="static\images\arrow.gif" />
+    <Content Include="static\images\arrow.png" />
+    <Content Include="static\images\home-bg.png" />
+    <Content Include="static\images\home.png" />
+    <Content Include="static\images\irelanddotcom-logo.gif" />
+    <Content Include="static\images\logo.png" />
+    <Content Include="static\images\map-icon.png" />
+    <Content Include="static\images\map.png" />
+    <Content Include="static\scripts\senchatouch.js" />
+    <Content Include="static\senchatouch\ext-touch-debug-w-comments.js" />
+    <Content Include="static\senchatouch\ext-touch-debug.js" />
+    <Content Include="static\senchatouch\ext-touch.js" />
+    <Content Include="static\senchatouch\license.inc" />
+    <Content Include="static\senchatouch\license.txt" />
+    <Content Include="static\senchatouch\resources\css-debug\ext-touch.css" />
+    <Content Include="static\senchatouch\resources\css-debug\robot.css" />
+    <Content Include="static\senchatouch\resources\css-debug\src\button.css" />
+    <Content Include="static\senchatouch\resources\css-debug\src\carousel.css" />
+    <Content Include="static\senchatouch\resources\css-debug\src\core.css" />
+    <Content Include="static\senchatouch\resources\css-debug\src\form.css" />
+    <Content Include="static\senchatouch\resources\css-debug\src\form_sliders.css" />
+    <Content Include="static\senchatouch\resources\css-debug\src\indexbar.css" />
+    <Content Include="static\senchatouch\resources\css-debug\src\layout.css" />
+    <Content Include="static\senchatouch\resources\css-debug\src\list.css" />
+    <Content Include="static\senchatouch\resources\css-debug\src\panel.css" />
+    <Content Include="static\senchatouch\resources\css-debug\src\picker.css" />
+    <Content Include="static\senchatouch\resources\css-debug\src\reset.css" />
+    <Content Include="static\senchatouch\resources\css-debug\src\tabs.css" />
+    <Content Include="static\senchatouch\resources\css-debug\src\toolbar.css" />
+    <Content Include="static\senchatouch\resources\css\ext-touch-debug.css" />
+    <Content Include="static\senchatouch\resources\css\ext-touch.css" />
+    <Content Include="static\senchatouch\resources\css\robot.css" />
+    <Content Include="static\senchatouch\resources\css\src\button.css" />
+    <Content Include="static\senchatouch\resources\css\src\carousel.css" />
+    <Content Include="static\senchatouch\resources\css\src\core.css" />
+    <Content Include="static\senchatouch\resources\css\src\form.css" />
+    <Content Include="static\senchatouch\resources\css\src\form_sliders.css" />
+    <Content Include="static\senchatouch\resources\css\src\indexbar.css" />
+    <Content Include="static\senchatouch\resources\css\src\layout.css" />
+    <Content Include="static\senchatouch\resources\css\src\list.css" />
+    <Content Include="static\senchatouch\resources\css\src\panel.css" />
+    <Content Include="static\senchatouch\resources\css\src\picker.css" />
+    <Content Include="static\senchatouch\resources\css\src\reset.css" />
+    <Content Include="static\senchatouch\resources\css\src\tabs.css" />
+    <Content Include="static\senchatouch\resources\css\src\toolbar.css" />
+    <Content Include="static\senchatouch\resources\img\disclosure.png" />
+    <Content Include="static\senchatouch\resources\img\tabicons\bookmarks.png" />
+    <Content Include="static\senchatouch\resources\img\tabicons\chat.png" />
+    <Content Include="static\senchatouch\resources\img\tabicons\download.png" />
+    <Content Include="static\senchatouch\resources\img\tabicons\favorites.png" />
+    <Content Include="static\senchatouch\resources\img\tabicons\home.png" />
+    <Content Include="static\senchatouch\resources\img\tabicons\info.png" />
+    <Content Include="static\senchatouch\resources\img\tabicons\mail.png" />
+    <Content Include="static\senchatouch\resources\img\tabicons\more.png" />
+    <Content Include="static\senchatouch\resources\img\tabicons\refresh.png" />
+    <Content Include="static\senchatouch\resources\img\tabicons\search.png" />
+    <Content Include="static\senchatouch\resources\img\tabicons\settings.png" />
+    <Content Include="static\senchatouch\resources\img\tabicons\team.png" />
+    <Content Include="static\senchatouch\resources\img\tabicons\time.png" />
+    <Content Include="static\senchatouch\resources\img\tabicons\user.png" />
+    <Content Include="static\senchatouch\resources\img\tabs.png" />
+    <Content Include="static\senchatouch\resources\img\tip.png" />
+    <Content Include="static\senchatouch\resources\img\tip_horizontal.png" />
+    <Content Include="static\senchatouch\resources\img\togglebg.png" />
+    <Content Include="static\senchatouch\resources\img\togglemask.png" />
+    <Content Include="static\senchatouch\resources\img\togglethumb.png" />
+    <Content Include="static\senchatouch\resources\img\togglethumbbg.png" />
+    <Content Include="static\senchatouch\resources\img\togglethumbmask.png" />
+    <Content Include="static\senchatouch\resources\img\toolbaricons\action.png" />
+    <Content Include="static\senchatouch\resources\img\toolbaricons\add.png" />
+    <Content Include="static\senchatouch\resources\img\toolbaricons\attachment.png" />
+    <Content Include="static\senchatouch\resources\img\toolbaricons\bolt.png" />
+    <Content Include="static\senchatouch\resources\img\toolbaricons\bookmarks.png" />
+    <Content Include="static\senchatouch\resources\img\toolbaricons\chat.png" />
+    <Content Include="static\senchatouch\resources\img\toolbaricons\compose.png" />
+    <Content Include="static\senchatouch\resources\img\toolbaricons\delete.png" />
+    <Content Include="static\senchatouch\resources\img\toolbaricons\home.png" />
+    <Content Include="static\senchatouch\resources\img\toolbaricons\locate.png" />
+    <Content Include="static\senchatouch\resources\img\toolbaricons\maps.png" />
+    <Content Include="static\senchatouch\resources\img\toolbaricons\organize.png" />
+    <Content Include="static\senchatouch\resources\img\toolbaricons\refresh.png" />
+    <Content Include="static\senchatouch\resources\img\toolbaricons\reply.png" />
+    <Content Include="static\senchatouch\resources\img\toolbaricons\search.png" />
+    <Content Include="static\senchatouch\resources\img\toolbaricons\settings.png" />
+    <Content Include="static\senchatouch\resources\img\toolbaricons\tag.png" />
+    <Content Include="static\senchatouch\resources\img\toolbaricons\trash.png" />
+    <Content Include="static\senchatouch\resources\img\trackmask_outer.png" />
+    <Content Include="static\senchatouch\src\core\CompositeElement.js" />
+    <Content Include="static\senchatouch\src\core\DomHelper.js" />
+    <Content Include="static\senchatouch\src\core\DomQuery.js" />
+    <Content Include="static\senchatouch\src\core\Element.insertion.js" />
+    <Content Include="static\senchatouch\src\core\Element.js" />
+    <Content Include="static\senchatouch\src\core\Element.position.js" />
+    <Content Include="static\senchatouch\src\core\Element.static.js" />
+    <Content Include="static\senchatouch\src\core\Element.style.js" />
+    <Content Include="static\senchatouch\src\core\Element.traversal.js" />
+    <Content Include="static\senchatouch\src\core\EventManager.js" />
+    <Content Include="static\senchatouch\src\core\Ext.js" />
+    <Content Include="static\senchatouch\src\core\Fx.js" />
+    <Content Include="static\senchatouch\src\core\Platform.js" />
+    <Content Include="static\senchatouch\src\core\TouchEventManager.js" />
+    <Content Include="static\senchatouch\src\data\Batch.js" />
+    <Content Include="static\senchatouch\src\data\Connection.js" />
+    <Content Include="static\senchatouch\src\data\Field.js" />
+    <Content Include="static\senchatouch\src\data\ideas.js" />
+    <Content Include="static\senchatouch\src\data\Model.js" />
+    <Content Include="static\senchatouch\src\data\ModelMgr.js" />
+    <Content Include="static\senchatouch\src\data\Operation.js" />
+    <Content Include="static\senchatouch\src\data\proxies\AjaxProxy.js" />
+    <Content Include="static\senchatouch\src\data\proxies\ClientProxy.js" />
+    <Content Include="static\senchatouch\src\data\proxies\LocalStorageProxy.js" />
+    <Content Include="static\senchatouch\src\data\proxies\MemoryProxy.js" />
+    <Content Include="static\senchatouch\src\data\proxies\Proxy.js" />
+    <Content Include="static\senchatouch\src\data\proxies\RestProxy.js" />
+    <Content Include="static\senchatouch\src\data\proxies\ScriptTagProxy.js" />
+    <Content Include="static\senchatouch\src\data\proxies\ServerProxy.js" />
+    <Content Include="static\senchatouch\src\data\proxies\SessionStorageProxy.js" />
+    <Content Include="static\senchatouch\src\data\proxies\WebSocketProxy.js" />
+    <Content Include="static\senchatouch\src\data\proxies\WebStorageProxy.js" />
+    <Content Include="static\senchatouch\src\data\ProxyMgr.js" />
+    <Content Include="static\senchatouch\src\data\ReaderMgr.js" />
+    <Content Include="static\senchatouch\src\data\readers\ArrayReader.js" />
+    <Content Include="static\senchatouch\src\data\readers\JsonReader.js" />
+    <Content Include="static\senchatouch\src\data\readers\Reader.js" />
+    <Content Include="static\senchatouch\src\data\readers\XmlReader.js" />
+    <Content Include="static\senchatouch\src\data\Request.js" />
+    <Content Include="static\senchatouch\src\data\ResultSet.js" />
+    <Content Include="static\senchatouch\src\data\SortTypes.js" />
+    <Content Include="static\senchatouch\src\data\Store.js" />
+    <Content Include="static\senchatouch\src\data\StoreMgr.js" />
+    <Content Include="static\senchatouch\src\data\stores\ArrayStore.js" />
+    <Content Include="static\senchatouch\src\data\stores\JsonPStore.js" />
+    <Content Include="static\senchatouch\src\data\stores\JsonStore.js" />
+    <Content Include="static\senchatouch\src\data\stores\XmlStore.js" />
+    <Content Include="static\senchatouch\src\data\Tree.js" />
+    <Content Include="static\senchatouch\src\data\Types.js" />
+    <Content Include="static\senchatouch\src\data\WriterMgr.js" />
+    <Content Include="static\senchatouch\src\data\writers\JsonWriter.js" />
+    <Content Include="static\senchatouch\src\data\writers\Writer.js" />
+    <Content Include="static\senchatouch\src\data\writers\XmlWriter.js" />
+    <Content Include="static\senchatouch\src\layout\component\AutoComponentLayout.js" />
+    <Content Include="static\senchatouch\src\layout\component\ComponentLayout.js" />
+    <Content Include="static\senchatouch\src\layout\component\DockLayout.js" />
+    <Content Include="static\senchatouch\src\layout\component\FieldLayout.js" />
+    <Content Include="static\senchatouch\src\layout\container\AutoContainerLayout.js" />
+    <Content Include="static\senchatouch\src\layout\container\BoxLayout.js" />
+    <Content Include="static\senchatouch\src\layout\container\CardLayout.js" />
+    <Content Include="static\senchatouch\src\layout\container\ContainerLayout.js" />
+    <Content Include="static\senchatouch\src\layout\container\FitLayout.js" />
+    <Content Include="static\senchatouch\src\layout\Layout.js" />
+    <Content Include="static\senchatouch\src\locale\ext-lang-en.js" />
+    <Content Include="static\senchatouch\src\util\AbstractManager.js" />
+    <Content Include="static\senchatouch\src\util\Date.js" />
+    <Content Include="static\senchatouch\src\util\DelayedTask.js" />
+    <Content Include="static\senchatouch\src\util\Draggable.js" />
+    <Content Include="static\senchatouch\src\util\Droppable.js" />
+    <Content Include="static\senchatouch\src\util\Format.js" />
+    <Content Include="static\senchatouch\src\util\GeoLocation.js" />
+    <Content Include="static\senchatouch\src\util\JSON.js" />
+    <Content Include="static\senchatouch\src\util\JSONP.js" />
+    <Content Include="static\senchatouch\src\util\MixedCollection.js" />
+    <Content Include="static\senchatouch\src\util\Observable.js" />
+    <Content Include="static\senchatouch\src\util\OfflineDebug.js" />
+    <Content Include="static\senchatouch\src\util\PluginMgr.js" />
+    <Content Include="static\senchatouch\src\util\Region.js" />
+    <Content Include="static\senchatouch\src\util\Scroller.js" />
+    <Content Include="static\senchatouch\src\util\Sortable.js" />
+    <Content Include="static\senchatouch\src\util\TapRepeater.js" />
+    <Content Include="static\senchatouch\src\util\Template.js" />
+    <Content Include="static\senchatouch\src\util\Timeline.js" />
+    <Content Include="static\senchatouch\src\util\XTemplate.js" />
+    <Content Include="static\senchatouch\src\widgets\Audio.js" />
+    <Content Include="static\senchatouch\src\widgets\Button.js" />
+    <Content Include="static\senchatouch\src\widgets\Carousel.js" />
+    <Content Include="static\senchatouch\src\widgets\Component.js" />
+    <Content Include="static\senchatouch\src\widgets\ComponentMgr.js" />
+    <Content Include="static\senchatouch\src\widgets\Container.js" />
+    <Content Include="static\senchatouch\src\widgets\DataPanel.js" />
+    <Content Include="static\senchatouch\src\widgets\DataView.js" />
+    <Content Include="static\senchatouch\src\widgets\form\Checkbox.js" />
+    <Content Include="static\senchatouch\src\widgets\form\EmailField.js" />
+    <Content Include="static\senchatouch\src\widgets\form\Field.js" />
+    <Content Include="static\senchatouch\src\widgets\form\FieldSet.js" />
+    <Content Include="static\senchatouch\src\widgets\form\FormPanel.js" />
+    <Content Include="static\senchatouch\src\widgets\form\HiddenField.js" />
+    <Content Include="static\senchatouch\src\widgets\form\NumberField.js" />
+    <Content Include="static\senchatouch\src\widgets\form\PasswordField.js" />
+    <Content Include="static\senchatouch\src\widgets\form\Radio.js" />
+    <Content Include="static\senchatouch\src\widgets\form\SearchField.js" />
+    <Content Include="static\senchatouch\src\widgets\form\Select.js" />
+    <Content Include="static\senchatouch\src\widgets\form\Slider.js" />
+    <Content Include="static\senchatouch\src\widgets\form\SpinnerField.js" />
+    <Content Include="static\senchatouch\src\widgets\form\TextArea.js" />
+    <Content Include="static\senchatouch\src\widgets\form\TextField.js" />
+    <Content Include="static\senchatouch\src\widgets\form\Toggle.js" />
+    <Content Include="static\senchatouch\src\widgets\form\UrlField.js" />
+    <Content Include="static\senchatouch\src\widgets\IndexBar.js" />
+    <Content Include="static\senchatouch\src\widgets\List.js" />
+    <Content Include="static\senchatouch\src\widgets\Map.js" />
+    <Content Include="static\senchatouch\src\widgets\Media.js" />
+    <Content Include="static\senchatouch\src\widgets\NestedList.js" />
+    <Content Include="static\senchatouch\src\widgets\Panel.js" />
+    <Content Include="static\senchatouch\src\widgets\Picker.js" />
+    <Content Include="static\senchatouch\src\widgets\ProgressBar.js" />
+    <Content Include="static\senchatouch\src\widgets\SplitButton.js" />
+    <Content Include="static\senchatouch\src\widgets\TabPanel.js" />
+    <Content Include="static\senchatouch\src\widgets\Toolbar.js" />
+    <Content Include="static\senchatouch\src\widgets\Video.js" />
+    <Content Include="static\Site.css" />
+    <Content Include="tablet_startup.png" />
+    <Content Include="Views\Home\Index.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="static\senchatouch\ext-touch.jsb3" />
+    <None Include="static\senchatouch\resources\psd\tabs.psd" />
+    <None Include="static\senchatouch\resources\sass\config-debug.rb" />
+    <None Include="static\senchatouch\resources\sass\config.rb" />
+    <None Include="static\senchatouch\resources\sass\ext-touch.scss" />
+    <None Include="static\senchatouch\resources\sass\robot.scss" />
+    <None Include="static\senchatouch\resources\sass\src\button.scss" />
+    <None Include="static\senchatouch\resources\sass\src\carousel.scss" />
+    <None Include="static\senchatouch\resources\sass\src\core.scss" />
+    <None Include="static\senchatouch\resources\sass\src\form.scss" />
+    <None Include="static\senchatouch\resources\sass\src\form_sliders.scss" />
+    <None Include="static\senchatouch\resources\sass\src\indexbar.scss" />
+    <None Include="static\senchatouch\resources\sass\src\layout.scss" />
+    <None Include="static\senchatouch\resources\sass\src\list.scss" />
+    <None Include="static\senchatouch\resources\sass\src\panel.scss" />
+    <None Include="static\senchatouch\resources\sass\src\picker.scss" />
+    <None Include="static\senchatouch\resources\sass\src\reset.scss" />
+    <None Include="static\senchatouch\resources\sass\src\tabs.scss" />
+    <None Include="static\senchatouch\resources\sass\src\toolbar.scss" />
+    <None Include="static\senchatouch\resources\sass\src\_ext-base.scss" />
+    <None Include="static\senchatouch\resources\sass\src_robot\_robot-base.scss" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target> -->
+  <Target Name="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(ProjectDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>59626</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
